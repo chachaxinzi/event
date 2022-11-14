@@ -43,3 +43,6 @@ iframe {
     margin-right: 10px;
     font-size: 18px;
 }
+.layui-footer{
+    text-align: center;
+}
