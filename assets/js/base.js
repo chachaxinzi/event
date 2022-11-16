@@ -1,6 +1,6 @@
 $(function () {
     $.ajaxPrefilter(function (option) {
-        option.url = "http://www.liulongbin.top:3007" + option.url
+        option.url = "http://api-breakingnews-web.itheima.net" + option.url
         //为有权限的接口设置请求头
         if (option.url.indexOf("/my/") !== -1) {
             option.headers = {

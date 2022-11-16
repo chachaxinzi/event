@@ -6,7 +6,7 @@ var layer = layui.layer
 //获取用户的基本信息
 function getBaseInfo() {
     $.ajax({
-        metod: "GET",
+        type: "GET",
         url: "/my/userinfo",
         success: function (res) {
             if (res.status !== 0) {
